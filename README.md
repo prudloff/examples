@@ -1,7 +1,7 @@
 
-#examples
+# examples
 
-#Apache - Volume Beispiel
+# Apache - Volume Beispiel
 ```sh
 mkdir myhtml
 cd myhtml
@@ -12,6 +12,6 @@ vi index.html
 run -v "$PWD":/usr/local/apache2/htdocs/ -d -p 89:80 httpd
 ```
 
-#Cheat-Sheets
+# Cheat-Sheets
 * Docker https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf
 * VI: http://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf
