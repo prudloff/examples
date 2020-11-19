@@ -1,0 +1,14 @@
+#hellojava
+#use openjdk
+FROM openjdk:8
+
+#copy from workspace to container
+COPY Hello.java /src/Hello.java
+ 
+WORKDIR src
+ 
+#compile
+RUN javac /src/Hello.java
+ 
+#set Command 
+ENTRYPOINT ["java", "Hello"]
